@@ -1,0 +1,7 @@
+To run Ptool that we have to this point:
+
+1st. In a terminal run NPM install
+
+2nd.In a terminal:npm run dev
+
+This will launch the program we have so far on localhost 3000

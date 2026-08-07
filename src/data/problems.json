@@ -1,0 +1,379 @@
+[
+  {
+    "problemId": 1,
+    "name": "Initialize an Integer",
+    "prompt": "You must initialize an integer variable with the value 4 and print it to the console.",
+    "number": 1,
+    "type": "traditional",
+    "code": [
+      { "id": "1", "content": "int x = 4;" },
+      { "id": "2", "content": "System.out.print(x);" },
+      { "id": "3", "content": "System.out.print(\"Goodbye World\");" },
+      { "id": "4", "content": "int x = 5;" }
+    ],
+    "correctOrder": ["1", "2"],
+    "answer": "4",
+    "module": "data-types",
+    "difficulty": "easy"
+  },
+  {
+    "problemId": 2,
+    "name": "Initialize a String",
+    "prompt": "You must initialize a String variable with the value of Goodbye World and print it to the console.",
+    "number": 2,
+    "type": "traditional",
+    "code": [
+      { "id": "1", "content": "int x = 4;" },
+      { "id": "2", "content": "System.out.print(x);" },
+      { "id": "3", "content": "System.out.print(\"Goodbye World\");" },
+      { "id": "4", "content": "int x = 5;" }
+    ],
+    "correctOrder": ["3"],
+    "answer": "Goodbye World",
+    "module": "data-types",
+    "difficulty": "easy"
+  },
+  {
+    "problemId": 3,
+    "name": "Sum of Two Integers",
+    "prompt": "You must initialize two variables with values that will equal to the sum of 10 and print the result to the console.",
+    "number": 3,
+    "type": "traditional",
+    "code": [
+      { "id": "1", "content": "int x = 2;" },
+      { "id": "2", "content": "int y = 5;" },
+      { "id": "3", "content": "System.out.print(x + y);" },
+      { "id": "4", "content": "System.out.print(\"Goodbye World\");" },
+      { "id": "5", "content": "int x = 3;" },
+      { "id": "6", "content": "int x = 4;" },
+      { "id": "7", "content": "int y = 7;" }
+    ],
+    "correctOrder": ["5", "7", "3"],
+    "answer": "10",
+    "module": "data-types",
+    "difficulty": "easy"
+  },
+  {
+    "problemId": 1,
+    "name": "The Variable Reassignment",
+    "prompt": "You must initialize an integer variable with the value 4, then reassign it to 5 and print it to the console.",
+    "number": 1,
+    "type": "traditional",
+    "code": [
+      { "id": "1", "content": "int x = 4;" },
+      { "id": "2", "content": "System.out.print(x);" },
+      { "id": "3", "content": "System.out.print(\"Goodbye World\");" },
+      { "id": "4", "content": "int x = 5;" },
+      { "id": "5", "content": "x = 5;" },
+      { "id": "6", "content": "double x = 5.0;" },
+      { "id": "7", "content": "string x = \"5\";" }
+    ],
+    "correctOrder": ["1", "5", "2"],
+    "answer": "5",
+    "module": "data-types",
+    "difficulty": "medium"
+  },
+  {
+    "problemId": 2,
+    "name": "Boolean Logic",
+    "prompt": "You must initialize two booleans that will result in a user not having fullAccess.",
+    "number": 2,
+    "type": "traditional",
+    "code": [
+      { "id": "1", "content": "boolean isAdmin = false;" },
+      { "id": "2", "content": "boolean hasPermission = true;" },
+      { "id": "3", "content": "System.out.print(isAdmin && hasPermission);" },
+      { "id": "4", "content": "System.out.print(\"Goodbye World\");" },
+      { "id": "5", "content": "System.out.print(isAdmin || hasPermission);" }
+    ],
+    "correctOrder": ["1", "2", "3"],
+    "answer": "false",
+    "module": "data-types",
+    "difficulty": "medium"
+  },
+  {
+    "problemId": 1,
+    "name": "Count to Three",
+    "prompt": "Print the numbers 1-3 using a for loop.",
+    "number": 1,
+    "type": "traditional",
+    "code": [
+      { "id": "1", "content": "for (int i = 1 ; i <= 3 ; i++ ) {" },
+      { "id": "2", "content": "System.out.print(i);" },
+      { "id": "3", "content": "}" }
+    ],
+    "correctOrder": ["1", "2", "3"],
+    "answer": "123",
+    "module": "loops",
+    "difficulty": "easy"
+  },
+  {
+    "problemId": 1,
+    "name": "The Age Checker",
+    "prompt": "Check if age is 18 or older. If true, print 'Adult', otherwise print 'Minor'.",
+    "number": 1,
+    "type": "traditional",
+    "code": [
+      { "id": "1", "content": "int age = 20;" },
+      { "id": "2", "content": "if (age >= 18) {" },
+      { "id": "3", "content": "System.out.print(\"Adult\");" },
+      { "id": "4", "content": "}" },
+      { "id": "12", "content": "else {" },
+      { "id": "5", "content": "System.out.print(\"Minor\");" },
+      { "id": "6", "content": "}" },
+      { "id": "7", "content": "if (age < 18) {" },
+      { "id": "8", "content": "System.out.print(\"Child\");" },
+      { "id": "9", "content": "System.out.print(\"parent\");" },
+      { "id": "10", "content": "System.out.print(\"brother\");" },
+      { "id": "11", "content": "System.out.print(\"sister\");" }
+    ],
+    "correctOrder": ["1", "2", "3", "4", "12", "5", "6"],
+    "correctOrders": [
+      ["1", "2", "3", "4", "12", "5", "6"],
+      ["1", "2", "3", "6", "12", "5", "4"]
+    ],
+    "answer": "Adult",
+    "module": "conditionals",
+    "difficulty": "easy"
+  },
+  {
+    "problemId": 3,
+    "name": "Sum of Two Integers",
+    "prompt": "You must initialize two variables with values that will equal to the sum of 10 and print the result to the console.",
+    "number": 3,
+    "type": "distractor",
+    "code": [
+      { "id": "1", "content": "int x = 3;" },
+      { "id": "2", "content": "int y = 7;" },
+      { "id": "3", "content": "System.out.print(x + y);", "isDistractor": false },
+      { "id": "4", "content": "System.out.print(\"Goodbye World\");", "isDistractor": true },
+      { "id": "5", "content": "int x = 2", "isDistractor": true },
+      { "id": "6", "content": "int y = 5;", "isDistractor": true },
+      { "id": "7", "content": "int x = 4;", "isDistractor": true }
+    ],
+    "correctOrder": ["1", "2", "3"],
+    "answer": "10",
+    "module": "data-types",
+    "difficulty": "medium"
+  },
+  {
+    "problemId": 9,
+    "name": "Initialize a Double",
+    "prompt": "Initialize a double variable named 'pi' with the value 3.14 and print it to the console.",
+    "number": 4,
+    "type": "traditional",
+    "code": [
+      { "id": "1", "content": "double pi = 3.14;" },
+      { "id": "2", "content": "System.out.print(pi);" },
+      { "id": "3", "content": "int pi = 3;" },
+      { "id": "4", "content": "float pi = 3.14f;" }
+    ],
+    "correctOrder": ["1", "2"],
+    "answer": "3.14",
+    "module": "data-types",
+    "difficulty": "easy"
+  },
+  {
+    "problemId": 10,
+    "name": "Sum of Even Numbers",
+    "prompt": "Use a for loop to calculate the sum of all even numbers from 2 to 6, then print the result.",
+    "number": 2,
+    "type": "faded-parsons",
+    "code": [
+      { "id": "1", "content": "int sum = 0;" },
+      { "id": "2", "content": "for (int i = __BLANK__; i <= 6; i += 2) {", "isFaded": true, "correctAnswer": "2", "userAnswer": "" },
+      { "id": "3", "content": "sum = sum + i;" },
+      { "id": "4", "content": "}" },
+      { "id": "5", "content": "System.out.print(sum);" },
+      { "id": "6", "content": "for (int i = 1; i <= 6; i++) {" },
+      { "id": "7", "content": "sum = sum + i * 2;" }
+    ],
+    "correctOrder": ["1", "2", "3", "4", "5"],
+    "answer": "12",
+    "module": "loops",
+    "difficulty": "easy"
+  },
+  {
+    "problemId": 11,
+    "name": "Check Positive Number",
+    "prompt": "Check if the number 5 is positive and print 'Positive' if it is.",
+    "number": 2,
+    "type": "traditional",
+    "code": [
+      { "id": "1", "content": "int num = 5;" },
+      { "id": "2", "content": "if (num > 0) {" },
+      { "id": "3", "content": "System.out.print(\"Positive\");" },
+      { "id": "4", "content": "}" },
+      { "id": "5", "content": "if (num < 0) {" },
+      { "id": "6", "content": "System.out.print(\"Negative\");" }
+    ],
+    "correctOrder": ["1", "2", "3", "4"],
+    "answer": "Positive",
+    "module": "conditionals",
+    "difficulty": "easy"
+  },
+  {
+    "problemId": 12,
+    "name": "Sum First Five Integers",
+    "prompt": "Use a for loop to calculate the sum of integers from 1 to 5, then print the result.",
+    "number": 1,
+    "type": "traditional",
+    "code": [
+      { "id": "1", "content": "int sum = 0;" },
+      { "id": "2", "content": "for (int i = 1; i <= 5; i++) {" },
+      { "id": "3", "content": "sum = sum + i;" },
+      { "id": "4", "content": "}" },
+      { "id": "5", "content": "System.out.print(sum);" },
+      { "id": "6", "content": "int sum = 1;" },
+      { "id": "7", "content": "for (int i = 1; i < 5; i++) {" }
+    ],
+    "correctOrder": ["1", "2", "3", "4", "5"],
+    "answer": "15",
+    "module": "loops",
+    "difficulty": "medium"
+  },
+  {
+    "problemId": 13,
+    "name": "Grade Checker",
+    "prompt": "Given a score of 85, print the letter grade: A for 90 and above, B for 80-89, C for 70-79.",
+    "number": 1,
+    "type": "distractor",
+    "code": [
+      { "id": "1", "content": "int score = 85;" },
+      { "id": "2", "content": "if (score >= 90) {" },
+      { "id": "3", "content": "System.out.print(\"A\");" },
+      { "id": "4", "content": "}" },
+      { "id": "11", "content": "else if (score >= 80) {" },
+      { "id": "5", "content": "System.out.print(\"B\");" },
+      { "id": "6", "content": "}" },
+      { "id": "12", "content": "else {" },
+      { "id": "7", "content": "System.out.print(\"C\");" },
+      { "id": "8", "content": "}" },
+      { "id": "9", "content": "if (score > 90) {", "isDistractor": true },
+      { "id": "10", "content": "System.out.print(\"D\");", "isDistractor": true }
+    ],
+    "correctOrder": ["1", "2", "3", "4", "11", "5", "6", "12", "7", "8"],
+    "correctOrders": [
+      ["1", "2", "3", "4", "11", "5", "6", "12", "7", "8"],
+      ["1", "2", "3", "4", "11", "5", "8", "12", "7", "6"],
+      ["1", "2", "3", "6", "11", "5", "4", "12", "7", "8"],
+      ["1", "2", "3", "6", "11", "5", "8", "12", "7", "4"],
+      ["1", "2", "3", "8", "11", "5", "4", "12", "7", "6"],
+      ["1", "2", "3", "8", "11", "5", "6", "12", "7", "4"]
+    ],
+    "answer": "B",
+    "module": "conditionals",
+    "difficulty": "medium"
+  },
+  {
+    "problemId": 14,
+    "name": "String Concatenation",
+    "prompt": "Given two string variables 'hello' and 'world', use the correct operator to concatenate and print them.",
+    "number": 5,
+    "type": "faded-parsons",
+    "code": [
+      { "id": "1", "content": "String hello = \"Hello\";" },
+      { "id": "2", "content": "String world = \" World\";" },
+      { "id": "3", "content": "System.out.print(hello __BLANK__ world);", "isFaded": true, "correctAnswer": "+", "userAnswer": "" },
+      { "id": "4", "content": "System.out.print(hello - world);" },
+      { "id": "5", "content": "System.out.print(hello * world);" }
+    ],
+    "correctOrder": ["1", "2", "3"],
+    "answer": "Hello World",
+    "module": "data-types",
+    "difficulty": "easy"
+  },
+  {
+    "problemId": 15,
+    "name": "Sum of Squares",
+    "prompt": "Calculate and print the sum of squares for integers 1 through 4. (1 + 4 + 9 + 16 = 30)",
+    "number": 1,
+    "type": "traditional",
+    "code": [
+      { "id": "1", "content": "int sum = 0;" },
+      { "id": "2", "content": "for (int i = 1; i <= 4; i++) {" },
+      { "id": "3", "content": "sum = sum + i * i;" },
+      { "id": "4", "content": "}" },
+      { "id": "5", "content": "System.out.print(sum);" },
+      { "id": "6", "content": "sum = sum + i;" },
+      { "id": "7", "content": "for (int i = 0; i <= 4; i++) {" }
+    ],
+    "correctOrder": ["1", "2", "3", "4", "5"],
+    "answer": "30",
+    "module": "loops",
+    "difficulty": "hard"
+  },
+  {
+    "problemId": 16,
+    "name": "Sign Checker",
+    "prompt": "Check whether the number -7 is positive, negative, or zero, and print the correct label.",
+    "number": 1,
+    "type": "faded-parsons",
+    "code": [
+      { "id": "1", "content": "int n = __BLANK__;", "isFaded": true, "correctAnswer": "-7", "userAnswer": "" },
+      { "id": "2", "content": "if (n > 0) {" },
+      { "id": "3", "content": "System.out.print(\"Positive\");" },
+      { "id": "4", "content": "}" },
+      { "id": "11", "content": "else if (n < 0) {" },
+      { "id": "5", "content": "System.out.print(\"Negative\");" },
+      { "id": "6", "content": "}" },
+      { "id": "12", "content": "else {" },
+      { "id": "7", "content": "System.out.print(\"Zero\");" },
+      { "id": "8", "content": "}" },
+      { "id": "9", "content": "if (n == 0) {" },
+      { "id": "10", "content": "else if (n > 0) {" }
+    ],
+    "correctOrder": ["1", "2", "3", "4", "11", "5", "6", "12", "7", "8"],
+    "correctOrders": [
+      ["1", "2", "3", "4", "11", "5", "6", "12", "7", "8"],
+      ["1", "2", "3", "4", "11", "5", "8", "12", "7", "6"],
+      ["1", "2", "3", "6", "11", "5", "4", "12", "7", "8"],
+      ["1", "2", "3", "6", "11", "5", "8", "12", "7", "4"],
+      ["1", "2", "3", "8", "11", "5", "4", "12", "7", "6"],
+      ["1", "2", "3", "8", "11", "5", "6", "12", "7", "4"]
+    ],
+    "answer": "Negative",
+    "module": "conditionals",
+    "difficulty": "hard"
+  },
+  {
+    "problemId": 17,
+    "name": "Rectangle Perimeter",
+    "prompt": "Given a rectangle with length 5 and width 3, calculate and print its perimeter. (Perimeter = 2 * length + 2 * width)",
+    "number": 1,
+    "type": "distractor",
+    "code": [
+      { "id": "1", "content": "int length = 5;" },
+      { "id": "2", "content": "int width = 3;" },
+      { "id": "3", "content": "int perimeter = 2 * length + 2 * width;" },
+      { "id": "4", "content": "System.out.print(perimeter);" },
+      { "id": "5", "content": "int perimeter = length + width;", "isDistractor": true },
+      { "id": "6", "content": "int perimeter = 2 * length * width;", "isDistractor": true }
+    ],
+    "correctOrders": [  
+      ["1", "2", "3", "4"],
+      ["2", "1", "3", "4"]
+    ],
+    "answer": "16",
+    "module": "data-types",
+    "difficulty": "hard"
+  },
+  {
+    "problemId": 18,
+    "name": "Yes or No Boolean Logic",
+    "prompt": "You must initialize two booleans and print the result.",
+    "number": 2,
+    "type": "2d",
+    "gridRows": 6,
+    "gridColumns": 4,
+    "code": [
+      { "id": "1", "content": "boolean isAdmin = false;", "row": 0, "column": 0 },
+      { "id": "2", "content": "boolean hasPermission = true;", "row": 1, "column": 1 },
+      { "id": "3", "content": "System.out.print(isAdmin && hasPermission);", "row": 2, "column": 2 }
+    ],
+    "correctOrder":["1","2","3"],
+    "answer": "false",
+    "module": "data-types",
+    "difficulty": "hard"
+  }
+]

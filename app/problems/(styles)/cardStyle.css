@@ -1,0 +1,207 @@
+html,
+body { 
+    background-color: #0f172a;
+    --bs-body-bg: #0f172a;
+    min-height: 100%;
+    margin: 0;
+}
+/*This affects the Module Page*/
+.problems-page{
+    background-color: linear-gradient(180deg, #1a2643, #335cf0 100%);
+    min-height: 100vh;
+    padding: 1px 20px 20px;
+    animation: fadeIn 0.4s ease-in;
+}
+.page-label {
+    color: #e9d5ff;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.title{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.h2{
+    text-align: center;
+    color:white;
+    font-size: 2.2rem; 
+    font-weight: bold;
+    line-height: 1.25;
+}
+
+
+.problem-instruction {
+    color: #ddd6fe;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.home-container {
+    max-width: 850px;
+    margin: 50px auto 40px;
+    text-align: center;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 25px;
+}
+
+
+.problem-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1100px;
+    margin: 40px auto 0;
+}
+
+.problem-card-wrapper{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    background-color: #1e293b;
+    padding: 48px 28px 28px;
+    border-radius: 18px;
+    border: 2px solid #475569;
+    cursor: pointer;
+    opacity: 0;
+    animation: cardSlideUp 0.45s ease forwards;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.problem-card-wrapper:hover{
+    transform: translateY(-5px) scale(1.01);
+    box-shadow: 0px 12px 25px rgba(0,0,0,0.35);
+}
+
+.problem-card-wrapper:active {
+    transform: scale(0.98);
+}
+
+.problem-badge {
+    position: absolute;
+    top: 18px;
+    right: 22px;
+    background-color: #020617;
+    color: #04c63e;
+    border: 1px solid #334155;
+    border-radius: 999px;
+    padding: 4px 12px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.card {
+    width: 100%;
+    min-height: 150px;
+    height: auto;
+    background-color: #f8fafc;
+    border-radius: 14px;
+}
+
+.cardbody {
+    text-align: center;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
+    width: 100%
+}
+
+.card-link:hover .card {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+.loading-text{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    opacity: 0.8;
+    letter-spacing: 0.5px;
+}
+
+.empty-message {
+    grid-column: 1/ -1;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+.empty-message h3{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.empty-message p{
+    color: #94a3b8;
+}
+
+.back-button-container {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.backButton { /* Rahdyce - added this class for the back button on the problems page */
+  display: inline-block;
+  border: 1px solid #475569;
+  background-color:rgb(31, 41, 55);
+  color: #cbd5e1; /*5f6778*/
+  font-weight: 700;
+  font-size: 2rem;
+  border-radius: 16px;
+  min-width: 100px;
+  padding: 12px 32px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.2s ease;
+}
+
+.backButton:hover {
+    background-color: #334155;
+    color: white;
+    transform: translateY(-2px);
+    border-color: #dcf0e2;
+}
+
+.link{
+    position: relative; /*Jayla - previously absolute*/
+    margin-top: 10px;
+    /* bottom:.1; */ 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes cardSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(18px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Jayla -
+important! = overrides all other css rules, so use it when you want to make sure a rule is applied.
+margin-top = adds space above an element, pushing it down from the top. In this case, it creates space between the top of the page and the content below it.
+*/

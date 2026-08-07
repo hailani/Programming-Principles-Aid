@@ -1,0 +1,140 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 0;
+}
+
+/*  Content on the page containing title, cards, and back button. */
+.content {
+  width: 100vw;
+  min-height: 100vh;
+  background: #cdd5f0;
+  padding: 50px 60px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+/* Main page heading. */
+.title {
+  margin: 0;
+  font-size: clamp(2.4rem, 3.1vw, 4rem);
+  color: black;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* 2-column card grid */
+.grid {
+  width: min(1200px, 100%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+/* Shared style for each module card */
+.card {
+  min-height: 220px;
+  width: 100%; /* Ensure button takes up full grid cell width */
+  border: 0;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 3px 12px rgba(30, 41, 59, 0.14);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Adds a nice "lift" effect */
+  box-shadow: 0 6px 20px rgba(30, 41, 59, 0.2);
+  background-color: rgb(183, 184, 241);
+}
+
+/* Module card text. */
+.cardLabel {
+  color: #1f2537;
+  font-size: clamp(2rem, 2.2vw, 2.6rem);
+  font-weight: 700;
+}
+
+/* Icon styling*/
+.icon {
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* Icon Pictures */
+.datatype {
+  background-image: url("/datatype.svg");
+}
+
+.conditionals {
+  background-image: url("/conditionals.svg");
+}
+
+.loop {
+  background-image: url("/loop.svg");
+}
+
+.array {
+  background-image: url("/array.svg");
+}
+
+/* Back navigation button. */
+.backButton {
+  margin-top: px;
+  border: 0;
+  background: #d9dce5;
+  color: #5f6778;
+  font-weight: 700;
+  font-size: 2rem;
+  border-radius: 16px;
+  min-width: 100x;
+  min-height: px;
+  padding: 12px 32px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Mobile sizing adjustments. */
+@media (max-width: 900px) {
+  .content {
+    padding: 32px 22px 24px;
+    gap: 22px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .card {
+    min-height: 150px;
+  }
+
+  .icon {
+    width: 96px;
+    height: 96px;
+    background-size: 160px 160px;
+  }
+
+  .backButton {
+    font-size: 1.5rem;
+    min-height: 50px;
+    min-width: 104px;
+  }
+}
