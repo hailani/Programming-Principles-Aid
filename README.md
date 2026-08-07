@@ -1,3 +1,8 @@
+## Project Background & Redesign
+
+Programming Principles Aid was originally developed by a previous software engineering team. Our team inherited the existing project and redesigned and restructured the application to improve its functionality, architecture, usability, and overall user experience. Now, rather than rebuilding the existing custom Java interpreter, our team focused on transforming the application into a more interactive programming education platform. We redesigned the learning experience around Parsons-style programming exercises.
+
+
 ## Current Team
 
 - **Rahdyce Era** — Technical Project Manager
