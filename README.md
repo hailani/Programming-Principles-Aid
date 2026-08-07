@@ -1,14 +1,10 @@
 ## Current Team
 
-Rahdyce Era - Technical Project Manager
-
-Skye Blue - Architecture
-
-Haras Jailani - Scrum Master
-
-Jayla Rivera - Product Owner
-
-Success Emmanuel - Point of Contact
+- **Rahdyce Era** — Technical Project Manager
+- **Skye Blue** — Architecture
+- **Haras Jailani** — Scrum Master
+- **Jayla Rivera** — Product Owner
+- **Success Emmanuel** — Point of Contact
 
 ## Previous Teams ReadMe and download instructions
 
